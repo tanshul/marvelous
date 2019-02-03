@@ -1,0 +1,26 @@
+.grid-container {
+    .example-card {
+        max-width: 350px;
+        cursor: pointer;
+        img {
+            max-width: 300px;
+            max-height: 400px;
+        }
+    }
+    mat-card-header {
+        display: block;
+        text-align: center
+    }
+    mat-card-subtitle {
+        text-align: left;
+    }
+    mat-accordion {
+        width: 100%;
+    }
+    mat-grid-tile {
+        p {
+            padding: 20px;
+            background-color: #ccc;
+        }
+    }
+}
